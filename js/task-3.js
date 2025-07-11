@@ -7,7 +7,7 @@ class StringBuilder {
         return this.#value;
      };
     padEnd(str) {
-        this.#value += str;
+        this.#value += ptr;
      };
     padStart(str) {
         this.#value = str + this.#value;
